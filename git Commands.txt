@@ -1,0 +1,25 @@
+git init // for intailization of git 
+git status // for checking status of repository 
+git add filename.ext // for adding file to repository // staging process
+git commit // for commiting project to the repository
+// Press I for adding comment -- after enter comment press Esc key  then enter :wq for exit
+$ git commit -m 'change 3'
+git add . // is used for staging every file in directory
+git add *.html // is used for staging every html file in directory
+touch .gitignore //this file is used for ignore the file for staging 
+git branch newBranch // this command make copy of main code 
+git checkout newBranch // is used for switching to that branch
+git checkout master // is used for switching to main branch
+git merge MyBranch // for merging code of both branch
+git commit -a -m 'change 3'// for commiting current file
+git mergetool //for code in better way winmerge is also good tool for it 
+git stash // is used save your code at dirty stage
+git stash apply // is used restore ur code at saved dirty stage
+git remote // is used to check existing remote repository
+git clone https://github.com/chasgharali/gittest.git is used for getting git project
+cd toRemoteProject
+git remote -v //for getting project alais 
+git fetch origin //fetch all the changing from server
+git pull origin //fetch and merge all the changing from server
+git push origin master // upload all the changing to the remote server
+git remote add  https://github.com/chasgharali/newgit.git //for adding new remote git project
